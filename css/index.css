@@ -1,0 +1,187 @@
+html,body{
+    min-height:100%;
+    background: #212529;
+    color: white;
+}
+header{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+header .intro-text .intro-lead-in {
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+}header .intro-text .intro-heading {
+     font-size: 50px;
+     font-weight: 700;
+     line-height: 50px;
+     margin-bottom: 25px;
+     font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+ }
+ footer{
+     background-color:black;
+ }
+/*------------chat style -------- */
+hr{
+    background: #fed136;
+    width: 80%;
+}
+#chat .col-12 img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+#chat .col-12 img.right{
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+.receiver{
+    text-align: right;
+    background: #00000038;
+}
+#contacts{
+    position: fixed;
+    left: 0;
+    width: 20%;
+    height: 100vh;
+    background: black;
+}
+#contacts div{
+    position: relative;
+    top: 20%;
+}
+#contacts ul{
+    background: black;
+    overflow: auto;
+    height: 60vh;
+}
+#contacts ul li:hover{
+    color: #fed136;
+    cursor: pointer;
+}
+#chat{
+    text-align: left;
+    position: fixed;
+    top: 15vh;
+    left: 25%;
+    width: 70%;
+    padding-top: 3%;
+}
+#conversation{
+    height: 40vh;
+    overflow: auto;
+}
+#chat form{
+    text-align: center;
+}
+#chat input{
+    width: 25%;
+}
+#chat textarea{
+    width: 60vh;
+    height: 10vh;
+    overflow: auto;
+    resize: none;
+}
+/*----------------------------*/
+#error{
+    color:#fed136;
+    text-align: center;
+}
+.error{
+     color:#fed136;
+ }
+#servicesWindow{
+    background: black;
+}
+form fieldset{
+    text-align: left;
+}
+#inscription #error{
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+#login{
+    color: #fec503;
+}
+#map {
+    height: 400px;
+    width: 100%;
+}
+#mainNav{
+    background: black;
+}
+#partnerRegistration textarea{
+    width: 100%;
+}
+
+ .selected {
+    color: #fed136 !important;
+}
+ .fa-inverse{
+     color: #212529;
+ }
+ section{
+     padding-top: 20vh;
+     height: 100vh;
+ }
+
+#intro{
+    background :url("../img/handshakebg.jpg") no-repeat center center scroll;
+    background-size: cover;
+
+}
+#intro .row{
+    padding: 180px 0;
+}
+#intro h1{
+    font-size: 75px;
+}
+#intro h1,#intro h4{
+    background: #2125293d;
+}
+
+#registration .col-12{
+    margin-bottom: 5%;
+}
+#recherche{
+    background: #ffffff17;
+}
+#servicesList{
+    margin-left: 5%;
+}
+#services{
+    background: #212529;;
+    color: white !important;
+}
+#services .text-muted{
+    color: #fed136 !important;
+}
+#services a{
+    color: #212529;
+}
+#services .row{
+    margin-bottom:3vh;
+}
+#useGPS{
+    font-size: 13px;
+    padding: 10px;
+}
+#infoWindow{
+    color: black;
+}
+.brandTitle{
+font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+    color: #fed136;
+    font-size: larger;
+}
+.member{
+    background: #212529 !important ;
+}
